@@ -36,7 +36,7 @@ export class ChannelParser extends BaseParser {
   public getBadgeMetadata() {
     const [data] = this.findKeyValues<
       Array<{ metadataBadgeRenderer: YTMetadataBadgeRenderer }>
-    >(this.ytInitialData, 'contentMetadataViewModel');
+    >(this.ytInitialData, 'ownerBadges');
 
     if (!data) return [];
 
