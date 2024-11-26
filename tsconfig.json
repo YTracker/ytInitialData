@@ -10,13 +10,13 @@
     "forceConsistentCasingInFileNames": true,
     "outDir": "./lib",
     "declaration": true,
-    "declarationMap": true,
-    "sourceMap": true,
+    "declarationMap": false,
+    "sourceMap": false,
     "lib": ["ESNext"],
     "resolveJsonModule": true,
     "noEmit": false,
     "skipDefaultLibCheck": true,
-    "isolatedModules": false
+    "isolatedModules": true
   },
   "include": ["src/**/*.ts"],
   "exclude": ["node_modules", "lib"]

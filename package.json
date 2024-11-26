@@ -1,8 +1,26 @@
 {
   "name": "@ytracker/ytinitialdata",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./lib/index.js",
+  "keywords": [
+    "ytinitialdata",
+    "youtube",
+    "yt",
+    "scraper",
+    "web scraping"
+  ],
+  "homepage": "https://github.com/YTracker/ytInitialData",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YTracker/ytInitialData"
+  },
   "license": "MIT",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "build": "tsc",
     "dev": "tsx test.ts"

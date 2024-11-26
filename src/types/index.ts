@@ -7,7 +7,7 @@ import { YTVideoOwnerRenderer } from './YTVideoOwnerRenderer'
 import { YTVideoPrimaryInfoRenderer } from "./YTVideoPrimaryInfoRenderer";
 import { YTMultiMarkersPlayerBarRenderer } from "./YTMultiMarkersPlayerBarRenderer";
 
-export {
+export type {
   YTChannelMetadata,
   YTImageBannerViewModel,
   YTInitialData,
