@@ -1,0 +1,13 @@
+{
+  "name": "@ytracker/ytinitialdata",
+  "version": "0.0.1",
+  "main": "./lib/index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx test.ts"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.2"
+  }
+}
